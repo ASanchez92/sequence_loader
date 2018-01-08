@@ -29,9 +29,13 @@ body
 
 .gif-container
 {
-  margin: 0 auto;
+  margin: auto;
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  bottom: 0; 
+  right: 0;
   max-width: 150px;
-  margin-top: 4%;
 
   .white-box
   {
